@@ -23,6 +23,4 @@ C. Type (As discussed above, in-line > internal > external css):-
 D. "!important" IMPORTANT Keyword, (example:- color: green<space>!important) 
 The important keyword always has the highest priority ir-respective of where it is applied (in-line, internal or external) */
 
-/* The above categories also have a Hierarchy of A > B > C > D */
-
 /* Refer CSS-CASCADE.png in Resources section for more-info */
