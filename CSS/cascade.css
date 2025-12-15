@@ -1,0 +1,28 @@
+/* The Cascade in CSS refers to the importance or the order of the css styles applied to a HTML element  */
+
+/* The Order is:-
+1. !important - highest
+2. in-line css
+3. internal css
+4. external css */
+
+/* Note:- 
+The meaning of the above hierarchy is if the same element has been styled in all 3 formats, 
+then the in-line style will the last that will be applied thus seen by the end user */
+
+
+/* Major categories of Cascade in CSS:-
+
+A. Position:- The style that comes at the bottom is applied
+
+B. Specificity (Importance of different CSS selectors):-
+- id > attribute > class > element selector
+
+C. Type (As discussed above, in-line > internal > external css):-
+
+D. "!important" IMPORTANT Keyword, (example:- color: green<space>!important) 
+The important keyword always has the highest priority ir-respective of where it is applied (in-line, internal or external) */
+
+/* The above categories also have a Hierarchy of A > B > C > D */
+
+/* Refer CSS-CASCADE.png in Resources section for more-info */
