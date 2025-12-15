@@ -1,0 +1,7 @@
+/* instead of creating seperate class or id's for every element of p
+We can simply combine the existing ones which applies the css properties to that particular element :only-child */
+
+/* Example:- */
+selector1, selector2 {
+    color: red;
+}
