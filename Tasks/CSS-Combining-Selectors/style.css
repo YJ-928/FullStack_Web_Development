@@ -1,0 +1,25 @@
+
+/* Combine h1 and h2 using css selector combinations "," (comma) */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Combine css selectors using the parent-child combination ">"(greater than symbol) */
+.box > p {
+    color: firebrick;
+}
+
+/* Desendant selector combination (any element inside the RHS or Anchestor) */
+.box .list {
+    color: blue;
+}
+
+/* Chaining selectors (Only specific list elements inside the list class with done class)*/
+li.done {
+    color: seagreen;
+}
+
+/* Combine "Combined or Chained or Combined Selectors" together */
+ul p.done {
+    font-size: 0.5rem;
+}
